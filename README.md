@@ -47,3 +47,16 @@ This script takes all .xml files of the folder, prettyPrint them with the lxml m
 
     Returns:
         The lines matching the word we are searching for
+
+### How to use it ?
+Launch the script with the "string" to be found, as the firsts argument
+
+python parser.py **<string-to-be-found>**
+
+    Ben> **python parser.py FDO23251AYK**
+    +----------------+
+    | fabricNode.xml |
+    +----------------+
+    Lines inside fabricNode.xml matching the word: FDO12345678
+
+      <fabricNode adSt="on" address="192.168.1.2" annotation="" apicType="apic" childAction="" delayedHeartbeat="no" dn="topology/pod-1/node-201" extMngdBy="" fabricSt="active" id="201" lastStateModTs="2020-04-14T11:08:35.433+01:00" lcOwn="local" modTs="2020-04-14T11:08:35.510+01:00" model="N9K-C93180YC-FX" monPolDn="uni/fabric/monfab-default" name="Leaf201" nameAlias="" nodeType="unspecified" role="leaf" serial="FDO12345678" status="" uid="0" vendor="Cisco Systems, Inc" version=""/>
