@@ -51,9 +51,9 @@ This script takes all .xml files of the folder, prettyPrint them with the lxml m
 ### How to use it ?
 Launch the script with the "string" to be found, as the firsts argument
 
-python parser.py **<string-to-be-found>**
+>python parser.py <string-to-be-found>
 
-    Ben> **python parser.py FDO23251AYK**
+    Ben> python parser.py FDO23251AYK
     +----------------+
     | fabricNode.xml |
     +----------------+
