@@ -3,7 +3,7 @@ Improve/speed the parsing of Cisco ACI logs (eventRecord, faultRecord, fabricNod
 
 ##
 
-*** I'm creating this project as a way to improve my Python skills, while following DevNet study plan ***
+Disclaimer: I'm creating this project as a way to improve my Python skills, while following DevNet study plan. Use with caution.
 
 ## Start by getting the ACI logs from an APIC Controller, as recommended by the TAC
 
