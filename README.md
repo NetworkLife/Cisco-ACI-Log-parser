@@ -53,7 +53,7 @@ Launch the script with the "string" to be found, as the firsts argument
 
 >python parser.py **string**
 
-    Ben> python parser.py FDO23251AYK
+    Ben> python parser.py FDO12345678
     +----------------+
     | fabricNode.xml |
     +----------------+
